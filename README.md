@@ -13,7 +13,7 @@ Net::Inet6Glue
 XML::Parser
 
 Grab the Ibox API by going to
-https://<IBLOX-MASTER-IP>/api/dist/CPAN/authors/id/INFOBLOX
+https://\<IBLOX-MASTER-IP\>/api/dist/CPAN/authors/id/INFOBLOX
 Download the Infoblox-xxxxxxx.tar.gz package
 tar -xvzf Infoblox-xxxxxxx.tar.gz
 cd Infoblox-xxxxxxx
