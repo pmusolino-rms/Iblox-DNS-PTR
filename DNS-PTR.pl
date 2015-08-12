@@ -51,8 +51,8 @@ print "Session created successfully\n\n";
 print "Retreiving records...";
 my @result_array = $session->search(
 	"object" => "Infoblox::DNS::Record::A",
-	#"name"   => "jb-rl.*.lab.rmsonecloud.net", 
-	"view"   => "INTERNAL-CLOUD" );
+	#"name"   => "TEST", 
+	"view"   => "VIEW" );
 
 unless (@result_array) {
 	close(STDOUT);
